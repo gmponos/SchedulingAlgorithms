@@ -27,12 +27,12 @@
 #define  UP    0
 #define  DOWN  1
 
-struct Applications{
+struct Applications {
     //Αποτελεί το διάνυσμα στο οποίο θα αποθηκεύονται οι αιτήσεις
-             int *Queue;
+    int *Queue;
 
     //Αποτελεί το διάνυσμα στο οποίο θα αποθηκεύεται ποια χρονική στιγμή δημιουργήθηκε η αίτηση.
-             int *rndLoop;
+    int *rndLoop;
 
     //Δηλώνει των αριθμό των αιτήσεων που εκκρεμούν
     unsigned int QueueSize;
@@ -50,8 +50,8 @@ struct Applications{
     unsigned int CurrentRND;
 
     //Δηλώνει την κατεύθυνση της κεφαλής
-       short int direction;
-}App;
+    short int direction;
+} App;
 
 /* Εκτελείται ότι έχει σχέση με τα παιδιά (Αλγόριθμους) */
 int childs();
